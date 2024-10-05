@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="" width="300px" height="300px">
+
+    <script>
+         var img=document.getElementsByTagName("img")
+var a=["https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Suriya_at_68th_national_film_awards.JPG/220px-Suriya_at_68th_national_film_awards.JPG",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Suriya_%26_Jyothika_at_the_Kaatrin_Mozhi_movie_launch.jpg/250px-Suriya_%26_Jyothika_at_the_Kaatrin_Mozhi_movie_launch.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Suriya2011.jpg/220px-Suriya2011.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maatraan.jpg/250px-Maatraan.jpg"]
+var aa=0
+setInterval(hi,2000)
+    function hi(){
+        img[0].src=a[aa]
+        aa++
+        if(aa==a.length){
+            aa=0
+        }
+    } 
+   
+
+    </script>
+</body>
+</html>
